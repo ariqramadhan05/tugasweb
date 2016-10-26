@@ -1,0 +1,148 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background:#FFFFFF;
+}
+header nav{
+	display: flex; 
+	justify-content: center;
+}
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+header nav a{
+	color: black;
+	text-decoration: none;
+	padding: 15px 30px;
+	display: inline-block;
+}
+.wa a:hover{
+	background: #21252B;
+	color: #065C5C;
+	text-decoration: none;
+}
+header nav a:hover{
+	background: #FFFFFF;
+	color: #0DC0C0;
+	text-decoration: underline;
+}
+header nav ul li{
+	padding-top: 16px;
+	float: left;
+}
+.wa img{
+	width: 55px;
+	height: 50px;
+}
+.wa{
+	background: #21252B;
+	width: 100%;
+	color: #CCCCB2;
+	padding-top: 10px;
+	font-size: 20px;
+}
+.wa a{
+	color: #0DC0C0;
+	padding-left: 7px;
+}
+.menu div img{
+	width: 82px;
+	height: 85px;
+}
+.smk{
+	color: #929698;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 20px
+}
+/*header*/
+#content{
+	width: 100%;
+	margin: 0 auto;
+}
+section img{
+	width: 100%;
+}
+#content .banner img{
+	width: 95%;
+	height: 300px;
+	padding-left: 18px;
+}
+#content .banner{
+	width: 50%;
+	float: left;
+}
+.galerry{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 50px;
+	color: #0DC0C0;
+}
+.quotes{
+	background-color: #00CDAE;
+	height: 200px;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: monospace;
+}
+/*section*/
+footer{
+	background: #21252B;
+	color: #666666;
+}
+footer li{
+	list-style: none;
+}
+footer nav{
+	display: flex; 
+	justify-content: center;
+}
+footer nav ul{
+	float: left;
+	width: 20%;
+}
+footer nav a{
+	color: #666666;
+	text-decoration: none;
+	padding: 4px 4px;
+	display: inline-block;
+}
+footer nav a:hover{
+	background: #21252B;
+	color: #0DC0C0;
+	text-decoration: underline;
+}
+.leg{
+	color: #9999A5;
+	font-size: 17px;
+	padding: 10px;
+	padding-left: 35px;
+}
+.up{
+	color: white;
+}
+/*foot*/
+.down{
+	color: red;
+}
+.cbdk{
+	color: #0DC0C0;
+	text-decoration: none;
+}
+.cbdk:hover{
+	background: #21252B;
+	color: #065C5C;
+}
+.clear {
+	clear:both;
+}
